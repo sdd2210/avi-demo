@@ -1,0 +1,70 @@
+{
+    "id": 1,
+    "name": "Hội nghị Thường niên 2026",
+    "description": null,
+    "start_date": "2026-12-10T03:00:00.000Z",
+    "end_date": "2026-12-10T05:00:00.000Z",
+    "place": "Phòng họp chính",
+    "schedule": [
+        {
+            "content": " Khai mạc và giới thiệu",
+            "start_date": "2026-12-10T03:00:00.000Z",
+            "end_date": "2026-12-10T03:15:00.000Z"
+        },
+        {
+            "content": "Báo cáo kết quả hoạt động Q3",
+            "start_date": "2026-12-10T03:15:00.000Z",
+            "end_date": "2026-12-10T04:00:00.000Z"
+        },
+        {
+            "content": "Thảo luận và biểu quyết",
+            "start_date": "2026-12-10T04:00:00.000Z",
+            "end_date": "2026-12-10T04:30:00.000Z"
+        },
+        {
+            "content": "Kết luận và tổng kết",
+            "start_date": "2026-12-10T04:30:00.000Z",
+            "end_date": "2026-12-10T05:00:00.000Z"
+        }
+    ],
+    "participant": [
+        {
+            "full_name": "Nguyễn Văn An",
+            "type": "delegate",
+            "status": "joined"
+        },
+        {
+            "full_name": "Nguyễn Thị Lan",
+            "type": "delegate",
+            "status": "joined"
+        },
+        {
+            "full_name": "Trần Văn Hùng",
+            "type": "delegate",
+            "status": "not-joined"
+        }
+    ],
+    "file": [
+        {
+            "file_name": "Báo cáo kết quả Q3.pdf",
+            "file_path": "/storage/1/2408.00705v1.pdf",
+            "file_type": "application/pdf",
+            "hidden": false,
+            "description": "Phân tích hiệu suât kinh doanh quý 3"
+        },
+        {
+            "file_name": "Kế hoạch kinh doanh Q4.pptx",
+            "file_path": "/storage/1/filePptx.pptx",
+            "file_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+            "hidden": false,
+            "description": "Chiến lược và mục tiêu cho quý 4"
+        },
+        {
+            "file_name": "Tài liệu thảo luận.docx",
+            "file_path": "/storage/1/fileDoc.docx",
+            "file_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "hidden": false,
+            "description": "Các chủ đề quan trọng cần thảo luận"
+        }
+    ]
+}

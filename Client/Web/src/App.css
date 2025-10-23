@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-exit: #5a5a5a;
+  --color-main: #00ff00;
+  --color-main-red: #ff0000;
+  --color-main-hover: #66ff66;
+  --color-main-odd: #b5ffb4;
+  --color-disable: #a3ffa3;
+}
+
+body {
+    font-family: Inter, Helvetica, sans-serif !important;
+    overflow: hidden;
+}
+
+.ant-float-btn-body, .ant-float-btn-content{
+  background: none !important;
+}
+
+.ant-table-thead .ant-table-cell {
+  background-color: var(--color-main) !important;
+}
+/* .ant-table-tbody .ant-table-cell {
+  border-bottom-color: #969696 !important;
+} */
+.ant-table-tbody .ant-table-row:nth-child(odd) {
+  background-color: var(--color-main-odd) ;
+}
+
+.ant-table-tbody .ant-table-row:hover {
+  background-color: #adadad !important ;
+}
+
+.ant-timeline-item-left .ant-timeline-item-label {
+  width: max-content !important;
+}
+.ant-timeline-item-left .ant-timeline-item-tail {
+  inset-inline-start: 40% !important;
+}
+.ant-timeline-item-left .ant-timeline-item-head {
+  inset-inline-start: 40% !important;
+}
+.ant-timeline-item-left .ant-timeline-item-content {
+  width: max-content !important;
+}
+
+.ant-list-items .ant-list-item{
+  padding-left: 1rem;
+  padding-right: 0px;
+}
+
+.timer .ant-statistic-content-value {
+  font-size: var(--text-base) !important;
+  line-height: var(--tw-leading, var(--text-base--line-height)) !important;
+  color: var(--color-red-500);
+  display: block !important;
+}
+
+.ant-tabs-content, .ant-tabs-tabpane {
+  height: 100%;
+}
+
+.ql-container{
+  height: calc(100% - 50px) !important;
+}
+
+.ant-tabs-nav{
+  margin-bottom: 8px !important;
+}
+
+.infor-list .ant-list-item-meta-avatar {
+  margin-inline-end: 0px !important;
+}
+
+.docx-wrapper{
+  width: 100%;
+}
+
+div[class^="sheet-toggle-bar"]{
+  position: relative !important;
+}
+
+div[class^="locate-btns-x"]{
+  gap: 5px;
+  font-size: medium;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @keyframes fade {
+    0%,100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+
+  .animate-led {
+    animation: fade 1s infinite linear;
+  }
+}

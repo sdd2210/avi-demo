@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.ant-float-btn-body, .ant-float-btn-content{
+  background: none !important;
+}

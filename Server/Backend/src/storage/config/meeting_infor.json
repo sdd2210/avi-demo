@@ -1,0 +1,144 @@
+{
+  "id": 1,
+  "name": "Hội nghị Thường niên 2026",
+  "description": null,
+  "start_date": "2026-12-10T03:00:00.000Z",
+  "end_date": "2026-12-10T05:00:00.000Z",
+  "place": "Phòng họp chính",
+  "link_stream": "http://117.103.203.180:1935/vod/mp4:ildivo.mp4/playlist.m3u8",
+  "schedule": [
+    {
+      "content": " Khai mạc và giới thiệu",
+      "start_date": "2026-12-10T03:00:00.000Z",
+      "end_date": "2026-12-10T03:15:00.000Z"
+    }
+  ],
+  "participant": [
+    {
+      "id": 1,
+      "full_name": "Nguyễn Thị Lan",
+      "type": "delegate"
+    },
+    {
+      "id": 2,
+      "full_name": "Nguyễn Văn Sơn",
+      "type": "delegate"
+    },
+    {
+      "id": 3,
+      "full_name": "Nguyễn Thị Sang",
+      "type": "delegate"
+    },
+    {
+      "id": 4,
+      "full_name": "Nguyễn Văn Mạnh",
+      "type": "delegate"
+    },
+    {
+      "id": 5,
+      "full_name": "Nguyễn Văn Tiến",
+      "type": "chairman"
+    }
+  ],
+  "file": [
+    {
+      "id": 1,
+      "file_name": "Báo cáo kết quả Q3.pdf",
+      "file_path": "/1/filePdf.pdf",
+      "file_type": "application/pdf",
+      "description": "Phân tích hiệu suât kinh doanh quý 3"
+    },
+    {
+      "id": 2,
+      "file_name": "Kế hoạch kinh doanh Q4.pptx",
+      "file_path": "/1/filePptx.pptx",
+      "file_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "description": "Chiến lược và mục tiêu cho quý 4"
+    },
+    {
+      "id": 3,
+      "file_name": "Tài liệu thảo luận.docx",
+      "file_path": "/1/fileDoc.docx",
+      "file_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "description": "Các chủ đề quan trọng cần thảo luận"
+    },
+    {
+      "id": 4,
+      "file_name": "Video Tổng hợp kết quả Q3.mp4",
+      "file_path": "/1/fileVid.mp4",
+      "file_type": "video/mp4",
+      "description": "Phân tích hiệu suât kinh doanh quý 3"
+    },
+    {
+      "id": 5,
+      "file_name": "Danh sách công việc Q4.xlsx",
+      "file_path": "/1/fileExcel.xlsx",
+      "file_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "description": "Phân tích hiệu suât kinh doanh quý 3"
+    },
+    {
+      "id": 6,
+      "file_name": "Hình ảnh mô tả.jpg",
+      "file_path": "/1/fileImage.jpg",
+      "file_type": "image/jpeg",
+      "description": "Phân tích hiệu suât kinh doanh quý 3"
+    }
+  ],
+  "vote": [
+    {
+      "id": 1,
+      "content": "Thông qua kế hoạch Quý 4?",
+      "options": [
+          {
+              "id": "okBtn",
+              "name": "Đồng ý"
+          },
+          {
+              "id": "noBtn",
+              "name": "Không đồng ý"
+          }
+      ],
+      "is_done": false,
+      "timeout": 60000
+    },
+    {
+      "id": 2,
+      "content": "Ngân sách được phân bổ có đầy đủ để thực hiện kế hoạch này không?",
+      "options": [
+          {
+              "id": "okBtn",
+              "name": "Đồng ý"
+          },
+          {
+              "id": "noBtn",
+              "name": "Không đồng ý"
+          }
+      ],
+      "is_done": true,
+      "timeout": 60000
+    },
+    {
+      "id": 3,
+      "content": "Kế hoạch này có cần sự phê duyệt thêm từ bên ngoài",
+      "options": [
+          {
+              "id": "okBtn",
+              "name": "Đồng ý"
+          },
+          {
+              "id": "noBtn",
+              "name": "Không đồng ý"
+          },
+          {
+              "id": "new_option2",
+              "name": "Không trả lời"
+          }
+      ],
+      "is_done": false,
+      "timeout": 60000
+  }
+  ],
+  "is_open_waiting": false,
+  "title_waiting": "Cuộc họp tạm nghỉ",
+  "content_waiting": "Vui lòng chờ đợi trong giây lát"
+}
